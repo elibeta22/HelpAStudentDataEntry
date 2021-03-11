@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "Rocketqueen1!", "study_guide_app");
+$connect = mysqli_connect("localhost", "elibeta", "Rocketqueen1!", "study_guide_app");
 $filename = "items_schools_18.json";
 $data = file_get_contents($filename);
 $array = json_decode($data, true);

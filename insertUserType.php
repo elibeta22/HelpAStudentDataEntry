@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "root", "study_guide_app");
+$connect = mysqli_connect("localhost", "elibeta", "Rocketqueen1!", "study_guide_app");
 $myUserType = ["student","professor"];
 $addNum=0;
 for ($i = 0; $i<sizeof($myUserType); $i++){
